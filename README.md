@@ -9,11 +9,15 @@
 * 자연어 처리를 이용해 웹소설의 스토리들을 벡터 임베딩 하여
 * 사용자가 좋아요를 누른 소설의 줄거리와 유사도가 높은 작품을 추천해주는 서비스를 제공하는 웹사이트
 
-### Team [![github_icon](https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white)](https://github.com/cmjcum)
-  * 김동근 [![github_icon](https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white)](https://github.com/yinmsk)
-  * 노을 [![github_icon](https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white)](https://github.com/minkkky)
-  * 이정아 [![github_icon](https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white)](https://github.com/zeonga1102)
-  * 이현경 [![github_icon](https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white)](https://github.com/LULULALA2)
+### Team
+|이름|역할|깃허브|
+|:---:|---|---|
+|김동근|메인 페이지, 장르별 페이지|[![github_icon](https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white)](https://github.com/yinmsk)|
+|노을|로그인 페이지, 마이 페이지|[![github_icon](https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white)](https://github.com/minkkky)|
+|이정아|작품 상세 페이지|[![github_icon](https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white)](https://github.com/zeonga1102)|
+|이현경|작품 상세 페이지|[![github_icon](https://img.shields.io/badge/Github-000000?style=flat-square&logo=github&logoColor=white)](https://github.com/LULULALA2)|
+
+* 추천 모델 제작은 다 같이 한다.
 
 ### S.A 
 * [블로그로 이동(☞ﾟヮﾟ)☞](https://cold-charcoal.tistory.com/85)
@@ -34,43 +38,10 @@
 * 사용자의 선호작 5개와 작성한 리뷰들을 일부 보여주고 전체보기로 모든 항목들 표시
 
 ### Architecture
-* 📀 Python
-* 💿 Django
-* 📀 SQLite
-* ⚙️ MeCab
-* ⚙️ Doc2Vec
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=fff) ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=fff) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=python&logoColor=fff) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=fff) ![MeCab](https://img.shields.io/badge/MeCab-000?style=for-the-badge) ![Doc2Vec](https://img.shields.io/badge/Doc2Vec-000?style=for-the-badge)
 
 ### DB(ERD)
 ![image](https://user-images.githubusercontent.com/104331869/185334447-e9eaabb2-c3e0-4d1a-95de-5bb09921b73a.png)
-
-### Environment
-* asgiref==3.5.2
-* beautifulsoup4==4.11.1
-* certifi==2022.6.15
-* charset-normalizer==2.1.0
-* Cython==0.29.14
-* Django==3.2.15
-* djangorestframework==3.13.1
-* gensim==3.8.3
-* idna==3.3
-* JPype1==1.4.0
-* konlpy==0.6.0
-* lxml==4.9.1
-* mecab-ko==1.0.0
-* mecab-ko-dic==1.0.0
-* mecab-python==1.0.0
-* mecab-python3==1.0.5
-* numpy==1.21.6
-* pytz==2022.2.1
-* requests==2.28.1
-* scipy==1.7.3
-* six==1.16.0
-* smart-open==6.0.0
-* soupsieve==2.3.2.post1
-* sqlparse==0.4.2
-* typing_extensions==4.3.0
-* urllib3==1.26.11
-* wincertstore==0.2
 
 ### Preview
 * [시연 영상 확인하기(☞ﾟヮﾟ)☞](https://moist-ink.tistory.com/entry/webtachu)
