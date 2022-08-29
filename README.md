@@ -13,6 +13,7 @@
 * 메인 페이지에서 네이버 시리즈 소설 일간 순위 크롤링 해서 20위까지 보여줌
 * 각 작품에 사용자들이 작성한 리뷰 키워드 표시와 좋아요를 누른 소설의 줄거리 키워드 표시
 * S.A : [블로그로 이동(☞ﾟヮﾟ)☞](https://cold-charcoal.tistory.com/85)
+<br>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=fff) ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=fff) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=python&logoColor=fff) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=fff) ![MeCab](https://img.shields.io/badge/MeCab-000?style=for-the-badge) ![Doc2Vec](https://img.shields.io/badge/Doc2Vec-000?style=for-the-badge)
 <br>
 
