@@ -47,9 +47,9 @@
 * 작품 리뷰 CRUD 기능
 <details>
 <summary>메인페이지 Today best top 20 크롤링 및 작품 클릭시 네이버 시리즈의 해당 작품 페이지 이동 기능</summary>
-<br>
-새로고침할 때마다 새로 크롤링하고, 해당 작품을 누르면 네이버 시리즈의 해당 작품 페이지로 이동하도록 
 
+새로고침할 때마다 새로 크롤링하고, 해당 작품을 누르면 네이버 시리즈의 해당 작품 페이지로 이동하도록 구현
+<br>
 ```python
 import requests
 from bs4 import BeautifulSoup
@@ -101,7 +101,7 @@ print(li_list)
 ### 2. 리뷰 수정 후 저장을 누르면 'ReviewModel' object has no attribute 'update' 에러가 나는 문제
 <br>
 오류메세지를 보고 처음에 update 함수에서 문제가 있는 줄 알았는데, origin_review 로 불러오는 대상이 잘못되었다는 것을 알았습니다. get() 이 가져오는 것은 해당하는 객체 하나이고, filter()는 해당하는 여러개의 객체를 포함하는 QuerySet을 가져온다는 것을 알게 되어서 origin_review 를 불러올 때 <code>ReviewModel.objects.get(id=review_id)</code> 를 <code>ReviewModel.objects.filter(id=review_id)</code> 로 수정하였습니다.
-
+<br>
 <br>
 
 ```python
