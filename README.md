@@ -2,6 +2,14 @@
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcRZyWw%2FbtrJ2nbV0Ly%2FV0thL6tNjJKnkPrHsiYlJK%2Fimg.png">
 </p>
 
+<br>**목차**
+<br>[1. 프로젝트 소개](#intro)
+<br>[2. 프로젝트 기획 - 시연영상](#프로젝트-기획)
+<br>[3. 맡은 역할](#-담당-역할)
+<br>[4. 트러블슈팅](#troubleshooting)
+<br>[5. 회고](#회고)
+<br>
+
 # 📖[웹소설] 일타강사 AI의 기막힌 추천
 **추천시스템 프로젝트 - [웹소설] 일타강사 AI의 기막힌 추천 (웹타추)**
 <br>Doc2vec 을 이용하여 사용자가 선호하는 소설의 줄거리를 분석하고 그와 유사한 줄거리를 가진 소설을 추천하는 웹사이트 제작
