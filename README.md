@@ -94,13 +94,15 @@ print(li_list)
 ### 1. 크롤링할 페이지가 동적페이지여서 BeautifulSoup 사용 불가
 <br>
 처음에 크롤링을 할 때 bs4를 이용해 전체 작품목록에서 각 작품의 상세페이지로 연결되는 url을 크롤링하고, 크롤링한 url에 각각 접속하여 작품들의 상세정보를 크롤링해왔습니다. 각 작품 상세페이지에서 작품의 전체 줄거리는 <더보기> 버튼을 눌러야만 보이는 방식이어서 크롤링 결과물에 작품줄거리가 전부 잘려있었습니다. 그래서 동적페이지에서도 사용가능한 selenium 을 같이 사용했습니다.
-(코랩 : https://colab.research.google.com/drive/1olprD0sgSfZdq36o8ox0_lx8DLN1f7US?usp=sharing)
+<br>(코랩 : https://colab.research.google.com/drive/1olprD0sgSfZdq36o8ox0_lx8DLN1f7US?usp=sharing)
 
 <br>
 
 ### 2. 리뷰 수정 후 저장을 누르면 'ReviewModel' object has no attribute 'update' 에러가 나는 문제
 <br>
 오류메세지를 보고 처음에 update 함수에서 문제가 있는 줄 알았는데, origin_review 로 불러오는 대상이 잘못되었다는 것을 알았습니다. get() 이 가져오는 것은 해당하는 객체 하나이고, filter()는 해당하는 여러개의 객체를 포함하는 QuerySet을 가져온다는 것을 알게 되어서 origin_review 를 불러올 때 <code>ReviewModel.objects.get(id=review_id)</code> 를 <code>ReviewModel.objects.filter(id=review_id)</code> 로 수정하였습니다.
+
+<br>
 
 ```python
 # modify_review
